@@ -13,13 +13,6 @@
 docker compose up -d
 
 [+] Running 6/6
- ✔ Container lemp_nginx       Removed                                                                                                      13.9s 
- ✔ Container lemp_phpmyadmin  Removed                                                                                                      14.0s 
- ✔ Container lemp_php         Removed                                                                                                       2.6s 
- ✔ Container lemp_mysql       Removed                                                                                                       5.1s 
- ✔ Network l13_backend        Removed                                                                                                       2.7s 
- ✔ Network l13_frontend       Removed                                                                                                       4.3s 
-[+] Running 6/6
  ✔ Network l13_backend        Created                                                                                                       0.5s 
  ✔ Network l13_frontend       Created                                                                                                       0.5s 
  ✔ Container lemp_mysql       Started                                                                                                      11.5s 
