@@ -2,7 +2,7 @@
 
 ### 1. Dane Autora
 - **Imię i Nazwisko:** Aleksandra Reja
-- **Grupa:** IO6 (sekcja 6.7)
+- **Grupa:** IO6 6.7
 
 ## Opis kroków
 
@@ -46,7 +46,7 @@ curl http://localhost:4001
 
 ### 4. Sprawdzono możliwość utworzenia bazy danych
 
-![alt text](image-2.png)
+![alt text](image-1.png)
 
 ![alt text](image-3.png)
 
