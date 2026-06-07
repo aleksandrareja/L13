@@ -9,6 +9,7 @@
 
 ### 1. Uruchomiono całe środowisko wielokontenerowe w trybie detach
 
+```
 docker compose up -d
 
 [+] Running 6/6
@@ -25,9 +26,11 @@ docker compose up -d
  ✔ Container lemp_php         Started                                                                                                      15.7s 
  ✔ Container lemp_phpmyadmin  Started                                                                                                      15.7s 
  ✔ Container lemp_nginx       Started
+```
 
  ### 2. Zweryfikowano kondycję procesów kontenerowych za pomocą wbudowanego mechanizmu Docker Compose
 
+```
  docker compose ps
 
 NAME              IMAGE                  COMMAND                  SERVICE      CREATED         STATUS         PORTS
@@ -35,13 +38,15 @@ lemp_mysql        mysql:8.3.0            "docker-entrypoint.s…"   mysql       
 lemp_nginx        nginx:1.25.4-alpine    "/docker-entrypoint.…"   nginx        3 minutes ago   Up 3 minutes   0.0.0.0:4001->80/tcp, [::]:4001->80/tcp
 lemp_php          php:8.3.4-fpm-alpine   "docker-php-entrypoi…"   php          3 minutes ago   Up 3 minutes   9000/tcp
 lemp_phpmyadmin   phpmyadmin:5.2.1       "/docker-entrypoint.…"   phpmyadmin   3 minutes ago   Up 3 minutes   0.0.0.0:6001->80/tcp, [::]:6001->80/tcp
+```
 
 ### 3. Sprawdzono poprawność renderowania strony startowej oraz udowodniono poprawną wymianę pakietów na styku PHP <-> MySQL za pomocą narzędzia curl
 
+```
 curl http://localhost:4001
 
-'''
 <h1>Laboratorium nr 13</h1><p>Aleksandra Reja</p>Połączenie z bazą danych MySQL zrealizowane pomyślnie!
+```
 
 ![alt text](image.png)
 
