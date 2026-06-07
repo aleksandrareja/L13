@@ -2,7 +2,8 @@
 
 ### 1. Dane Autora
 - **Imię i Nazwisko:** Aleksandra Reja
-- **Grupa:** IO6 6.7
+- **Grupa:** 6.7
+- **Github** https://github.com/aleksandrareja/L13
 
 ## Opis kroków
 
